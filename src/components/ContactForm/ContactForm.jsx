@@ -15,10 +15,10 @@ export default function ContactForm() {
 
   const handleChange = ({ target: { name, value } }) => {
     switch (name) {
-      case 'name':
+      case 'Ім`я':
         return setName(value);
 
-      case 'number':
+      case 'Номер':
         return setNumber(value);
 
       default:

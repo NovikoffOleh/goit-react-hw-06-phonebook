@@ -14,7 +14,7 @@ export default function Filter() {
         className={s.input}
         type="text"
         name="filter"
-        placeholder="Find contacts by name"
+        placeholder="Знайти контакт за іменем"
         pattern="^[a-zA-Zа-яА-Я]+(([' -][a-zA-Zа-яА-Я ])?[a-zA-Zа-яА-Я]*)*$"
         title="Name may contain only letters, apostrophe, dash and spaces. For example Adrian, Jacob Mercer, Charles de Batz de Castelmore d'Artagnan"
         required
