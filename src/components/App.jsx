@@ -1,17 +1,17 @@
-import React from "react";
+import React from 'react';
 
-import {ContactList, ContactForm, Filter, Section } from "./index";
-export default function App () {
-  return(
+import { Filter, ContactList, Section, ContactForm } from './index';
+
+export default function App() {
+  return (
     <>
-    <Section title="ТелефонBook">
-      <ContactForm/>
-    </Section>
-
-    <Section title="Контакти">
-      <Filter/>
-      <ContactList/>
-    </Section>
+      <Section title="Phonebook">
+        <ContactForm />
+      </Section>
+      <Section title="Contacts">
+        <Filter />
+        <ContactList />
+      </Section>
     </>
-  )
+  );
 }
