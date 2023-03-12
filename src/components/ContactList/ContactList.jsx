@@ -28,7 +28,7 @@ export default function ContactList() {
               type="button"
               onClick={() => onDeleteContact(id, name)}
             >
-              Delete
+              Видалити
             </button>
           </li>
         );

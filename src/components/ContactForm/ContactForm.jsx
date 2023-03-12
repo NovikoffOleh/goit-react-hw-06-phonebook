@@ -79,7 +79,7 @@ export default function ContactForm() {
         />
       </label>
       <button type="submit" className={s.button}>
-        Add contact
+        Додати контакт
       </button>
     </form>
   );

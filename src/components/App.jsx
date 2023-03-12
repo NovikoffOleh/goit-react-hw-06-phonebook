@@ -5,10 +5,10 @@ import { Filter, ContactList, Section, ContactForm } from './index';
 export default function App() {
   return (
     <>
-      <Section title="Phonebook">
+      <Section title="ТелефонBook">
         <ContactForm />
       </Section>
-      <Section title="Contacts">
+      <Section title="Контакти">
         <Filter />
         <ContactList />
       </Section>
