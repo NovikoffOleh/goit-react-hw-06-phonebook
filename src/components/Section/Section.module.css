@@ -1,3 +1,10 @@
+/*.section {
+  margin-bottom: 30px;
+}
+
+.title {
+  margin-bottom: 20px;
+}*/
 .section {
   width: 470px;
   margin-left: auto;
@@ -15,6 +22,4 @@
   color: #3d3d3d;
   font-size: 26px;
 }
-.title_color{
-  color: #b61818;
-}
+

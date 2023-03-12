@@ -1,0 +1,45 @@
+.list {
+  width: 30vw;
+}
+
+.item {
+  /*display: flex;
+  justify-content: space-around;
+  margin-bottom: 5px;
+  padding: 10px;*/
+  align-items: center;
+    color: #3d3d3d;
+    display: flex;
+    font-size: 16px;
+    justify-content: space-between;
+}
+
+.deleteBtn {
+  /*padding: 5px 10px;
+  background-color: dimgrey;
+  border-radius: 10px;
+  color: aliceblue;
+  cursor: pointer;
+  transition: background-color 300ms;*/
+  background-color: #1d96e7;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    font-size: 12px;
+    font-weight: 700;
+    height: 30px;
+    letter-spacing: .14em;
+    line-height: 1.25;
+    text-align: center;
+    text-transform: uppercase;
+    transition: .3s cubic-bezier(.4,0,.2,1);
+    width: 150px;
+    padding: 5px 10px;
+    margin-right: 30px;
+}
+
+.deleteBtn:hover {
+  background-color: rgb(68, 68, 68);
+}
