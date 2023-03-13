@@ -6,9 +6,7 @@ import Filter from './Filter/Filter';
 function App() {
   return (
     <>
-    <div className="telephone">
-    <h1 >ТелефонBook</h1>
-    </div>
+   
       
       <Form />
       <Section title="Контакти">
